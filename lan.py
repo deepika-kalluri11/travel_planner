@@ -8,7 +8,7 @@ source = st.text_input("Enter Source Location")
 destination = st.text_input("Enter Destination")
 
 # Initialize Google Gemini API
-api_key = "AIzaSyBU4omzILffiB7d24hwnrFFlFnhfwesTQY"  # Your actual API key
+api_key = "Enter ypur API key"  # Your actual API key
 genai.configure(api_key=api_key)
 
 # Button to generate travel recommendations
